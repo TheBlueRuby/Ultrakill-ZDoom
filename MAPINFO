@@ -1,0 +1,150 @@
+
+GameInfo
+{
+    PlayerClasses = "V1", "DoomPlayer"
+}
+
+//EPISODES
+episode U_E0M0
+{
+	name = "The Mouth of Hell"
+}
+
+episode U_E1M1
+{
+	name = "Limbo"
+}
+
+episode U_E2M1
+{
+	name = "Lust"
+}
+
+episode U_E3M1
+{
+	name = "Gluttony"
+} 
+
+//MAPS
+map TITLEMAP "Title Map" 
+{
+    UsePlayerStartZ
+	Music = "D_U_THEME1"
+}
+
+map U_E0M0 "Intro"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0M1 "0-1: Into the Fire"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0M2 "0-2: The Meatgrinder"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0M3 "0-3: Double Down"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0M4 "0-4: A One-Machine Army"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0M5 "0-5: Cerberus"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+map U_E0MS "0-S: Something Wicked"
+{
+    UsePlayerStartZ
+    sky1 = "SKY0"
+}
+
+
+map U_E1M1 "1-1: Heart of the Sunrise"
+{
+    UsePlayerStartZ
+    sky1 = "SKY1"
+}
+
+map U_E1M2 "1-2: The Burning World"
+{
+    UsePlayerStartZ
+    sky1 = "SKY1"
+}
+
+map U_E1M3 "1-3: Halls of Sacred Remains"
+{
+    UsePlayerStartZ
+    sky1 = "SKY1"
+}
+
+map U_E1M4 "1-4: Clair de Lune"
+{
+    UsePlayerStartZ
+    sky1 = "SKY1"
+}
+
+map U_E1MS "1-S: The Witless"
+{
+    UsePlayerStartZ
+    sky1 = "SKY1"
+}
+
+
+map U_E2M1 "2-1: Bridgeburner"
+{
+    UsePlayerStartZ
+    sky1 = "SKY2"
+}
+
+map U_E2M2 "2-2: Death at 20,000 Volts"
+{
+    UsePlayerStartZ
+    sky1 = "SKY2"
+}
+
+map U_E2M3 "2-3: Sheer Heart Attack"
+{
+    UsePlayerStartZ
+    sky1 = "SKY2"
+}
+
+map U_E2M4 "2-4: Court of the Corpse King"
+{
+    UsePlayerStartZ
+    sky1 = "SKY2"
+}
+
+map U_E2MS "2-S: All-Imperfect Love Song"
+{
+    UsePlayerStartZ
+    sky1 = "SKY2"
+}
+
+
+map U_E3M1 "3-1: Belly of the Beast"
+{
+    UsePlayerStartZ
+    sky1 = "SKY3"    
+}
+
+map U_E3M2 "3-2: In The Flesh"
+{
+    UsePlayerStartZ
+    sky1 = "SKY3"
+}
