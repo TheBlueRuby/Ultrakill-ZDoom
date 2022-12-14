@@ -1,10 +1,11 @@
 
 GameInfo
 {
-    PlayerClasses = "V1", "DoomPlayer"
+    PlayerClasses = "V1"
 }
 
 //EPISODES
+clearepisodes
 episode U_E0M0
 {
 	name = "The Mouth of Hell"

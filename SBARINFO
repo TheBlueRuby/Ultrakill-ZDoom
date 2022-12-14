@@ -1,0 +1,19 @@
+statusbar normal
+{
+	drawimage "STBARU", -160, 136;
+	drawimage "STTPRCNT", -90, 160;
+	drawnumber 3, HUDFONT_DOOM, untranslated, health, -90, 160;
+
+	drawswitchableimage keyslot 2 && 5, "nullimage", "STKEYS0", "STKEYS3", "STKEYS6", 445, 150;
+	drawswitchableimage keyslot 3 && 6, "nullimage", "STKEYS1", "STKEYS4", "STKEYS7", 445, 165;
+	drawswitchableimage keyslot 1 && 4, "nullimage", "STKEYS2", "STKEYS5", "STKEYS8", 445, 180;
+
+	gamemode cooperative, deathmatch, teamgame
+	{
+		drawimage translatable "STFBANY", 143, 169;
+	}
+	drawselectedinventory alternateonempty, INDEXFONT, 143, 136
+	{
+		drawmugshot 1, 128, 136;
+	}
+}
